@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang=pt-br>
+        <head> 
+            <meta charset="uft-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> DB Arquitetura </title>
+       
+               
+            <link rel="stylesheet" href="form.css">
+        </head>
+        <body>
+       <section class="form">
+        <form action="orçamento">
+            <h2> Informações Pessoais: </h2>
+            <div class="form_group_nome">
+                <label for="name"> Nome completo: </label>
+                <input type="text" id="name" placeholder="nome completo:">
+            </div>
+            <div class="form_group_email">
+                <label for="email"> Email: </label>
+                <input type="email" id="email">
+            </div>
+            <div class="form_group_tel">
+                <label for="tel"> Número para contato: </label>
+                <input type="tel" id="tel"> 
+            </div>
+            <div class="form_group_age">
+                <label for="age"> Data de nascimento: </label>
+                <input type="date" id="age">
+            </div>
+
+            <h2> Informações do projeto: </h2>
+
+            <div class="form_group_type">
+
+            <label for="type"> Tipo de projeto: </label>
+
+            <label><input type="radio" name="type" value="type1">Residencial</label>
+            <label><input type="radio" name="type" value="type2"> Comercial </label>
+            <label><input type="radio" name="type" value="type3"> Industrial</label>
+            <label><input type="radio" name="type" value="type4">Design de interiores</label>
+            <label><input type="radio" name="type" value="type5">Restauração</label>
+            </div>
+
+            <div class="form_group_desc">
+            <label for="text"> Escreva aracterísticas essenciais para esse projeto:</label>
+            <textarea id="text"> Por exemplo, número de quartos, espaços abertos, requisitos de iluminação, acessibilidade, sustentabilidade, etc.</textarea>
+            </div>
+
+            <div class="form_group_style">
+
+                <label for="type"> Tipo de estilo: </label>
+
+                <label> <input type="radio" name="style" value="style1"> Clássico </label>
+                <label><input type="radio" name="style" value="style2"> Moderno</label>
+                <label><input type="radio" name="style" value="style3">Rústico</label>
+                <label><input type="radio" name="style" value="style4">Minimalista</label>
+                <label><input type="radio" name="style" value="style5"> Contemporâneo</label>
+            </div>
+
+            <div class="form_group_size">
+                <label for="size"> Tamanho da área(em m2): </label>
+                <input type="number" id="size">
+            </div>
+
+            <div class="form_group_date">
+                <label for="date"> Data de finalização desejada: </label>
+                <input type="date" id="date">
+            </div>
+        </form>
+        </section>
+        </body>
