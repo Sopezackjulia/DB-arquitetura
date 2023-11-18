@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=pt-br>
     <head> 
-        <meta charset="uft-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> DB Arquitetura </title>
 
@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="js.js" defer></script>
+        <script src="js/script.js" defer></script>
         <header>
             <a href="#"class="logo" id="inicio"> DB Arquitetura </a>
 
@@ -92,22 +92,11 @@
             </section>
         </section>
         <footer id="info">
-            <div class="info">
-                <div class="contact"> <h3>Contatos:</h3>
-                    <br> (11) 1234-5678
-                    <br> dbarquitetura@gmail.com
-                </div>
-                <div class="social"> <h3>Redes Sociais:</h3>
-                    <br> <a href="https://www.facebook.com/" target="_blank"> Facebook <i class="fab fa-facebook"></i></a>
-                    <br> <a href="https://twitter.com/" target="_blank"> Twitter <i class="fab fa-twitter"></i></a>
-                    <br> <a href="https://www.instagram.com/" target="_blank"> Instagram <i class="fab fa-instagram"></i></a>
-                    <br> <a href="https://www.linkedin.com/" target="_blank"> Linkedin <i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="hours"> <h3>Horários:</h3>
-                    <br> Seg-Sex 9:00 - 18:00
-                    <br> Sáb 10:00 - 14:00
-                </div>
-            </div>
+            <ul class="contact-list">
+                <li class="list-item"><span class="contact-text">Porto Alegre, RS</span></li>
+                <li class="list-item"><span class="contact-text">(51) 90000-0000</span></li>
+                <li class="list-item"><span class="contact-text"><a href="DbArquitetura@gmail.com" title="Contato">DbArquitetura@gmail.com</a></span></li>
+              </ul>
         </footer>
     </body>
 </html>
