@@ -1,0 +1,152 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #57432F;
+    color: white;
+    padding: 0.99rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo {
+    font-size: 1.55rem;
+    color:#ffffff;
+    font-weight: bolder;
+    text-shadow:0.2rem 0 0.6rem #99897a;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+nav a {
+    font-size: 0.96rem;
+    padding: 0 1rem;
+    color: #ffffff;
+    text-shadow:0.2rem 0 0.6rem #ebd3bc;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#ffdec0 ;
+    text-shadow:0.2rem 0 0.6rem #725c45;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    font-size:0.8em;
+    width: 98.1%;
+    padding: 1em;
+    font-weight: 100;
+    text-align: center;
+    background-color:#57432F;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#tamanho, 
+#estilo,
+#caracteristicas,
+#finalizacao,
+#tipo_projeto,
+#resposta{
+    font-size: 1.2em;
+    font-weight: 200;
+    color:#5f4514;
+}
+.list-item {
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    color: white;
+}
+
+h1 {
+    color: #57432F;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #57432F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d5843;
+}
+#deletar{
+    font-size: 13px;
+    display: flex;
+    width: 9.4em;
+    height: 1em;
+    margin-top:1em;
+    background-color: #8a1919;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    text-decoration: none;
+}
+#deletar:hover {
+    background-color: #a52b2b;
+}
+.contact-text a {
+     color: #ffffff;
+     text-decoration: none;
+     transition-duration: 0.2s;
+     font-size: 1em;
+}
+
+.contact-text a:hover {
+    color: #ffdec0;
+    text-decoration: none;
+}

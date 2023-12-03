@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 63%;
+ }
+ header{
+     position:absolute;
+     top: 0; left: 0; right: 0;
+     padding: 2rem 9%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 1000;
+     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+     background: #57432F;
+ }
+ header .logo{
+     font-size: 2.5rem;
+     color:#ffffff;
+     font-weight: bolder;
+     text-shadow:0.2rem 0 0.6rem #99897a;
+ }
+ header .navbar a{
+     font-size: 1.5rem;
+     padding: 0 1.5rem;
+     color: #ffffff;
+     text-shadow:0.2rem 0 0.6rem #ebd3bc;
+ }
+ header .navbar a:hover{
+     color:#ffdec0 ;
+     text-shadow:0.2rem 0 0.6rem #725c45;
+ }
+ 
+ section{
+     padding: 2rem 9%;
+ }
+ .home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background: url(../imagens/header2.jpg);
+    background-position: center;
+}
+.home .content{
+    max-width: 55rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: #57432F;
+    text-shadow:0.2rem 0 0.9rem #ebd3bc;
+}
+.home .content p{
+    color:#57432F;
+    font-size: 1.5rem;
+}
+.orcamentos {
+    text-align: center;
+    padding: 20px;
+}
+
+.orcamentos .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.orcamentos strong{
+    font-size: 1.5em;
+    color: #3b2d1f;
+}
+.orcamentos p {
+    font-size: 7em;
+    color:rgba(102, 85, 65, 0.753);
+    width: 300px;
+    height: 300px; 
+    border: 2px solid rgba(102, 85, 65, 0.753);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.orcamentos p:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.orcamentos h3 {
+    margin-bottom: 20px;
+    font-size: 8em;
+    color: #57432F;
+}
+footer {
+    width: 100%;
+    padding: 3em;
+    text-align: center;
+    background-color:#57432F;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+.list-item {
+    margin-bottom: 3px;
+    font-size: 2.5em;
+}
+
+.contact-text {
+    color: white;
+    margin-bottom: 10px;
+}
+  .contact-list {
+    list-style-type: none;
+  }
+  
+  .list-item {
+    color: #aaa;
+  }
+  
+  .contact-text a {
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    font-size: 1em;
+  }
+  
+  .contact-text a:hover {
+    color: #ffdec0;
+    text-decoration: none;
+  }
+  .cor{
+    color:#3b2d1f;
+    font-size: 0.8em;
+  }
